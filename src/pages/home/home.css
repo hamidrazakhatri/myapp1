@@ -1,0 +1,160 @@
+.animations{
+color:white ;
+}
+.fs{
+    font-size: 4em;
+}
+.flex{
+    margin-top: 300px;
+}
+.mx{
+    margin-left: 200px;
+
+}
+.icon{
+    padding-left:34px;
+    padding-top: 34px;
+}
+.round{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    /* background-color: red; */
+    background-color: rgba(206, 28, 28, 0.8);
+    border: 1px solid red;
+    margin-top: 120px;
+}
+.color{
+    color: white;
+}
+.color:hover{
+    color: red;
+}
+.round:hover{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    /* background-color: red; */
+    background-color: rgba(244, 236, 236, 10);
+    border: 1px solid red;
+    
+}
+.size{
+    font-size: 2.8;
+}
+.animations:hover{
+    color:red ;
+    animation: 1ms;
+    }
+
+    .Card{
+        color: red;
+    }
+    .text-color{
+        color: #2c234d;
+    }
+    .opacity{
+        opacity: 0.8;
+    }
+    /* .Dsiplay{
+display: none;
+    } */
+    .main___div{
+        background-image: url(
+        'https://images.pexels.com/photos/1547248/pexels-photo-1547248.jpeg?cs=srgb&dl=pexels-pikx-by-panther-1547248.jpg&fm=jpg'
+        );
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        
+        width: 100%;
+    }
+    .D-flex{
+        display: flex;
+        justify-content: center;
+    }
+    .bg{
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+.Background___img{
+    background-image: linear-gradient(to right, #302e32b1, #0a090ab5),
+    url("https://st.depositphotos.com/3154885/4025/i/450/depositphotos_40259443-stock-photo-olympic-weights.jpg");
+ background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 250px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* padding: 10px; */
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color:rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    color: black;
+  }
+  .background__color{
+    background-color: rgba(142, 130, 130, 0.2);
+    /* height: 100vh; */
+    width: 100%;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: rgba(148, 41, 41, 0.5);
+    color: white;
+    transform: rotateY(180deg);
+  }
+  
+  .Input {
+    width: 300px;
+    padding: 10px;
+    font-size: 1.2em;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid darkgray;
+    background-color:lightgray;
+  }
+  .Textarea{
+    width: 600px;
+    border: none;
+    border-bottom: 1px solid darkgray;
+    background-color:lightgray;
+    outline: none;
+    padding: 10px;
+
+  }

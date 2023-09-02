@@ -1,0 +1,18 @@
+.Fotter{
+    background-image: url('https://img.freepik.com/free-photo/young-fitness-man-studio_7502-5008.jpg?w=1060&t=st=1693590697~exp=1693591297~hmac=059cc82dca3948648c2521529b817933d8c2a00e05a34d1c410ffa3540037354');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    margin-top: 50px;
+    width: 100%;
+}
+.End___fotter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.opacity{
+    opacity: 0.3;
+}
